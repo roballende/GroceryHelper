@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { v4 as uuid } from "uuid";
 
 function TemplateForm({ groceryList, addTemplate }) {
     const [templateName, setTemplateName] = useState("")
@@ -7,6 +8,7 @@ function TemplateForm({ groceryList, addTemplate }) {
         e.preventDefault()
 
         const newTemplate = {
+            id: uuid(),
             name: templateName,
             list: groceryList
         }

@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 
-function TemplateList({ templateList }) {
+function TemplateList({ templateList, displayTemplate }) {
   return (
     <div className="App">
       <header className="App-header">
         <p> Select a Template: &ensp;
-          <select id="templates">
+          <select id="templates" onChange={(e) => displayTemplate(e.target.id)}>
             {templateList.map((template) => (
-              <option value={template.name}>{template.name}</option>
+              <option  id={template.id} value={template.name}>{template.name}</option>
             ))}
           </select>
         </p>

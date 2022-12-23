@@ -15,10 +15,15 @@ function Body() {
     setTemplateList([...templateList, newTemplate])
   }
 
+  function displayTemplate(templateId) {
+    const selectedTemplate = templateList.filter(template => template.id === templateId)
+    setGroceryList(selectedTemplate.list)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <TemplateList templateList={templateList}/>
+        <TemplateList templateList={templateList} displayTemplate={displayTemplate}/>
         <Form addGrocery={addGrocery}/>
         <TemplateForm groceryList={groceryList} addTemplate={addTemplate}/>
       </header>
