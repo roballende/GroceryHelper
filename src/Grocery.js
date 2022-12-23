@@ -1,27 +1,8 @@
 import React from "react";
 
-function Grocery() {
+function Grocery({groceryName, groceryCategory}) {
   return (
-    <div className="Fruits">
-      <header className="Fruits">
-  
-      </header>
-    </div>)
-
-    (
-    <div className="Vegetables">
-        <header className="Vegetables">
-        LMAO
-        </header>
-    </div>
-    )
-    (
-    <div className="Meats">
-        <header className="Meats">
-
-        </header>
-    </div>
-    )
+    {name: groceryName, category: groceryCategory}
+  )
 }
-
 export default Grocery;

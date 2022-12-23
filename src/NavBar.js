@@ -1,11 +1,11 @@
 import Form from "./Form";
 
-function NavBar() {
+function NavBar({ addGrocery }) {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Grocery Helper</h1>
-        <Form />
+        <Form addGrocery={addGrocery}/>
       </header>
     </div>
   );

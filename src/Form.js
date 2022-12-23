@@ -1,10 +1,23 @@
+import React, { useState } from "react";
 
-function Form() {
+function Form({ addGrocery }) {
+  const [newName, setNewName] = useState("")
+  const [newCategory, setNewCategory] = useState("Fruits")
+
+  function handleSubmit(e) {
+    e.preventDefault()
+
+    const newGrocery = {
+      name: newName,
+      category: newCategory
+    }
+    addGrocery(newGrocery)
+  }
+
   return (
-    <form className="new-grocery-form">
-      <input placeholder="Grocery" />
-      <select id="category">
-        <option value="" disabled selected hidden>Select a Category</option>
+    <form className="new-grocery-form" onSubmit={handleSubmit}>
+      <input placeholder="Grocery" onChange={(e) => setNewName(e.target.value)}/>
+      <select id="category" onChange={(e) => setNewCategory(e.target.value)}>
         <option value="Fruits">Fruits</option>
         <option value="Vegetables">Vegetables</option>
         <option value="Meats">Meats</option>
