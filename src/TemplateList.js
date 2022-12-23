@@ -4,7 +4,7 @@ function TemplateList({ templateList }) {
   return (
     <div className="App">
       <header className="App-header">
-        <p> Select a Template: 
+        <p> Select a Template: &ensp;
           <select id="templates">
             {templateList.map((template) => (
               <option value={template.name}>{template.name}</option>
