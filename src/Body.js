@@ -15,6 +15,7 @@ function Body() {
   return (
     <div className="App">
       <header className="App-header">
+        <TemplateList templateList={templateList}/>
         <Form addGrocery={addGrocery}/>
       </header>
     </div>
