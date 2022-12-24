@@ -1,6 +1,7 @@
 import TemplateList from "./TemplateList";
 import Form from "./Form";
 import TemplateForm from "./TemplateForm";
+import Grocery from "./Grocery";
 import React, { useState } from "react";
 
 function Body() {
@@ -25,6 +26,7 @@ function Body() {
       <header className="App-header">
         <TemplateList templateList={templateList} displayTemplate={displayTemplate}/>
         <Form addGrocery={addGrocery}/>
+        <Grocery groceryList={groceryList}/>
         <TemplateForm groceryList={groceryList} addTemplate={addTemplate}/>
       </header>
     </div>
