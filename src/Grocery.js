@@ -11,7 +11,7 @@ function Grocery() {
     (
     <div className="Vegetables">
         <header className="Vegetables">
-        HAHAHA
+        LMAO
         </header>
     </div>
     )
