@@ -1,29 +1,34 @@
 import React from "react";
+import {Container } from 'semantic-ui-react'
 
-function Grocery() {
+
+function Grocery({groceryName, groceryCategory}) {
   return (
-    <div>
-    <div className="Fruits">
-      <header className="Fruits">
-      <h1>Fruits</h1>
-      </header>
+<Container>
+    <div className="contentcontainer padding">
+      <div className="divcontainer">
+      <div className="fruits">
+        <h2>Fruits</h2>
+        <p>Apple</p>
+        <p>Apple</p>
+        <p>Apple</p>
+      </div>
+      <div className="vegetables">
+        <h2>Vegetables</h2>
+        <p>Carrot</p>
+        <p>Carrot</p>
+        <p>Carrot</p>
+      </div>
+      <div className="meats">
+        <h2>Meats</h2>
+        <p>Bacon</p>
+        <p>Bacon</p>
+        <p>Bacon</p>
+      </div>
+      </div>
     </div>
-
-    
-    <div className="Vegetables">
-        <header className="Vegetables">
-        
-        </header>
-    </div>
-    
-    
-    <div className="Meats">
-        <header className="Meats">
-      
-        </header>
-    </div>
-    </div>
-    )
+</Container>
+  )
 }
 
 export default Grocery;

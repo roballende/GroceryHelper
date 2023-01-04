@@ -1,10 +1,11 @@
 import React from "react";
 
-function NavBar() {
+
+function NavBar () {
   return (
-    <div className="App">
+    <div className="navbar">
       <header className="App-header">
-  
+        <h1>Grocery Helper</h1>
       </header>
     </div>
   );
