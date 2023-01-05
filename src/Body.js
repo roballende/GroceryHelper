@@ -27,9 +27,10 @@ function Body() {
   }
 
   function displayTemplate(templateId) {
-    const selectedTemplate = templateList.filter(template => template.id === templateId)
-    setGroceryList(selectedTemplate.list)
+    const selectedTemplate = templateList.filter((template) => (template.id === templateId))
+    setGroceryList(selectedTemplate[0].list)
   }
+
 
   return (
     <div className="App">

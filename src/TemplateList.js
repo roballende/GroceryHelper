@@ -5,9 +5,9 @@ function TemplateList({ templateList, displayTemplate }) {
     <div className="templatelist">
       <header className="App-header">
         <p> Select a Template: &ensp;
-          <select id="templates" onChange={(e) => displayTemplate(e.target.id)}>
+          <select id="templates" onChange={(e) => displayTemplate(e.target.value)}>
             {templateList.map((template) => (
-              <option  id={template.id} value={template.name}>{template.name}</option>
+              <option  value={template.id}>{template.name}</option>
             ))}
           </select>
         </p>
