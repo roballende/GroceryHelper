@@ -6,13 +6,15 @@ import TemplateForm from "./TemplateForm";
 
 function Body() {
 
-  const [groceries, setGroceries] = useState([])
   const [groceryList, setGroceryList] = useState([])
   const [templateList, setTemplateList] = useState([])
 
   useEffect(() => {
-    fetch()
-  })
+    fetch("http://localhost:3001/groceries")
+      .then(resp => resp.json())
+      .then(groceryList => setGroceryList(groceryList))
+  }, [])
+
 
   function addGrocery(newGrocery) {
     setGroceryList([...groceryList, newGrocery])
@@ -32,7 +34,7 @@ function Body() {
       <header className="App-header">
       <TemplateList templateList={templateList} displayTemplate={displayTemplate}/>
       <GroceryForm addGrocery={addGrocery}/>
-      <Grocery />
+      <Grocery groceryList={groceryList} />
       <TemplateForm groceryList={groceryList} addTemplate={addTemplate}/>
       </header>
     </div>

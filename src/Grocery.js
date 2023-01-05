@@ -1,32 +1,45 @@
-import React from "react";
+import React, {useState} from "react";
 import {Container } from 'semantic-ui-react'
 
 
-function Grocery({groceryName, groceryCategory}) {
+function Grocery({groceryList}) {
+
+const [isFruits, setIsFruits] = useState("Fruits")
+const [isVegetables, setIsVegetables] = useState("Vegetables")
+const [isMeats, setIsMeats] = useState("Meats")
+
+groceryList.map(grocery => grocery)
+// const name = groceryList.map((grocery) => {
+//     return (grocery.name)
+//   })
+
+
+
+
+
+
   return (
 <Container>
     <div className="contentcontainer padding">
       <div className="divcontainer">
       <div className="Fruits">
         <h2>Fruits</h2>
-        <p>Apple</p>
-        <p>Apple</p>
-        <p>Apple</p>
+        {grocery.category === isFruits ?  <p>{grocery.name}</p> : null }
+        
       </div>
       <div className="Vegetables">
         <h2>Vegetables</h2>
-        <p>Carrot</p>
-        <p>Carrot</p>
-        <p>Carrot</p>
+        {grocery.category === isVegetables ?  <p>{grocery.name}</p> : null }
+
       </div>
       <div className="Meats">
         <h2>Meats</h2>
-        <p>Bacon</p>
-        <p>Bacon</p>
-        <p>Bacon</p>
+        {grocery.category === isMeats ?  <p>{grocery.name}</p> : null }
+        
       </div>
       </div>
     </div>
+  
 </Container>
   )
 }
