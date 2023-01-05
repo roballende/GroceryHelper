@@ -12,9 +12,8 @@ function Body() {
   useEffect(() => {
     fetch("http://localhost:3001/groceries")
       .then(resp => resp.json())
-      .then(groceryList => setGroceryList(groceryList))
+      .then(setGroceryList)
   }, [])
-
 
   function addGrocery(newGrocery) {
     setGroceryList([...groceryList, newGrocery])
