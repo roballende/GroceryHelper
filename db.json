@@ -1,24 +1,93 @@
 {
-    "groceries": [
+  "groceries": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "category": "Fruits"
+    },
+    {
+      "id": 2,
+      "name": "Carrot",
+      "category": "Vegetables"
+    },
+    {
+      "id": 1,
+      "name": "Bacon",
+      "category": "Meats"
+    },
+    {
+      "name": "Banana",
+      "category": "Fruits",
+      "id": 3
+    },
+    {
+      "name": "Broccoli",
+      "category": "Vegetables",
+      "id": 4
+    },
+    {
+      "name": "Chicken",
+      "category": "Meats",
+      "id": 5
+    }
+  ],
+  "templates": [
+    {
+      "id": "e05eecb4-906f-485e-b963-97d0a6294c86",
+      "name": "Default template",
+      "list": [
         {
-            "id": 1,
-            "name": "Apple",
-            "category": "Fruits"
+          "id": 1,
+          "name": "Apple",
+          "category": "Fruits"
         },
         {
-            "id": 2,
-            "name": "Carrot",
-            "category": "Vegetables"
+          "id": 2,
+          "name": "Carrot",
+          "category": "Vegetables"
         },
         {
-            "id": 1,
-            "name": "Bacon",
-            "category": "Meats"
-        },
-        {
-            "id": 4,
-            "name": "Chicken",
-            "category": "Meats"
+          "id": 1,
+          "name": "Bacon",
+          "category": "Meats"
         }
-    ]
+      ]
+    },
+    {
+      "id": "c2765c23-13a8-4cda-9f59-a576ec18f65b",
+      "name": "Second template",
+      "list": [
+        {
+          "id": 1,
+          "name": "Apple",
+          "category": "Fruits"
+        },
+        {
+          "id": 2,
+          "name": "Carrot",
+          "category": "Vegetables"
+        },
+        {
+          "id": 1,
+          "name": "Bacon",
+          "category": "Meats"
+        },
+        {
+          "name": "Banana",
+          "category": "Fruits",
+          "id": 3
+        },
+        {
+          "name": "Broccoli",
+          "category": "Vegetables",
+          "id": 4
+        },
+        {
+          "name": "Chicken",
+          "category": "Meats",
+          "id": 5
+        }
+      ]
+    }
+  ]
 }

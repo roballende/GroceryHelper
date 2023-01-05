@@ -13,6 +13,9 @@ function Body() {
     fetch("http://localhost:3001/groceries")
       .then(resp => resp.json())
       .then(setGroceryList)
+    fetch("http://localhost:3001/templates")
+      .then(resp => resp.json())
+      .then(setTemplateList)
   }, [])
 
   function addGrocery(newGrocery) {

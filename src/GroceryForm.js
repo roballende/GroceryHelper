@@ -7,6 +7,8 @@ const options = [
   { key: 'Meats', text: 'Meats', value: 'Meats' },
 ]
 
+
+
 function GroceryForm({ addGrocery }) {
   const [newName, setNewName] = useState("")
   const [newCategory, setNewCategory] = useState("Fruits")
@@ -35,13 +37,20 @@ function GroceryForm({ addGrocery }) {
     <Form className="new-grocery-form" onSubmit={handleSubmit}>
       <Form.Group widths='equal'>
           <Form.Input fluid placeholder='Grocery' onChange={(e) => setNewName(e.target.value)}/>
-          <Form.Select
+          {/* <Form.Select
             id="category"
             fluid
             options={options}
             placeholder='Types'
             onChange={(e) => setNewCategory(e.target.value)}
-          />
+           
+            
+          /> */}
+        <select id="category" onChange={(e) => setNewCategory(e.target.value)}>
+        <option value="Fruits">Fruits</option>
+        <option value="Vegetables">Vegetables</option>
+        <option value="Meats">Meats</option>
+      </select>
         </Form.Group>
           <Button
            floated='right'

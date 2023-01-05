@@ -13,8 +13,16 @@ function TemplateForm({ groceryList, addTemplate }) {
             name: templateName,
             list: groceryList
         }
-        
-        addTemplate(newTemplate)
+    
+    fetch("http://localhost:3001/templates", {
+      method: 'POST',
+      headers: {
+        "Content-Type": 'application/json',
+      },
+      body: JSON.stringify(newTemplate)
+    })
+      .then(resp => resp.json())
+      .then(newTemplate=> addTemplate(newTemplate))
     }
 
     return (
