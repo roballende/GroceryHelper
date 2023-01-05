@@ -10,10 +10,10 @@ function NavBar () {
         </h1>
         <div className="links">
           <h3>
-            <Link to="/AllGroceries">All Groceries</Link>
+            <Link to="/Groceries">Groceries</Link>
           </h3>
           <h3>
-            <Link to="/AllGroceryLists">All Grocery Lists</Link>
+            <Link to="/TemplateLists">Template Lists</Link>
           </h3>
         </div>
     </div>

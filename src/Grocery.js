@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React from "react";
 import {Container } from 'semantic-ui-react'
 
 
 function Grocery({groceryList}) {
-
+  
   let fruitsList = groceryList.filter((grocery) => (
     grocery.category === "Fruits"
   ))

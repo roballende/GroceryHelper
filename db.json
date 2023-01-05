@@ -1,91 +1,91 @@
 {
   "groceries": [
     {
-      "id": 1,
-      "name": "Apple",
-      "category": "Fruits"
-    },
-    {
-      "id": 2,
-      "name": "Carrot",
-      "category": "Vegetables"
-    },
-    {
-      "id": 1,
-      "name": "Bacon",
-      "category": "Meats"
-    },
-    {
       "name": "Banana",
       "category": "Fruits",
-      "id": 3
+      "id": 1
     },
     {
-      "name": "Broccoli",
+      "name": "Carrot",
       "category": "Vegetables",
-      "id": 4
+      "id": 2
+    },
+    {
+      "name": "Bacon",
+      "category": "Meats",
+      "id": 3
     },
     {
       "name": "Chicken",
       "category": "Meats",
+      "id": 4
+    },
+    {
+      "name": "Apple",
+      "category": "Fruits",
       "id": 5
+    },
+    {
+      "name": "Broccoli",
+      "category": "Vegetables",
+      "id": 6
     }
   ],
   "templates": [
     {
-      "id": "e05eecb4-906f-485e-b963-97d0a6294c86",
-      "name": "Default template",
+      "id": "d22277df-aa85-45f5-a323-00fdcfc4bcd5",
+      "name": "Default",
       "list": [
         {
-          "id": 1,
-          "name": "Apple",
-          "category": "Fruits"
+          "name": "Banana",
+          "category": "Fruits",
+          "id": 1
         },
         {
-          "id": 2,
           "name": "Carrot",
-          "category": "Vegetables"
+          "category": "Vegetables",
+          "id": 2
         },
         {
-          "id": 1,
           "name": "Bacon",
-          "category": "Meats"
+          "category": "Meats",
+          "id": 3
         }
       ]
     },
     {
-      "id": "c2765c23-13a8-4cda-9f59-a576ec18f65b",
-      "name": "Second template",
+      "id": "e13de2d7-756c-4181-98fe-ca01bd925ae9",
+      "name": "Second Template",
       "list": [
-        {
-          "id": 1,
-          "name": "Apple",
-          "category": "Fruits"
-        },
-        {
-          "id": 2,
-          "name": "Carrot",
-          "category": "Vegetables"
-        },
-        {
-          "id": 1,
-          "name": "Bacon",
-          "category": "Meats"
-        },
         {
           "name": "Banana",
           "category": "Fruits",
-          "id": 3
+          "id": 1
         },
         {
-          "name": "Broccoli",
+          "name": "Carrot",
           "category": "Vegetables",
-          "id": 4
+          "id": 2
+        },
+        {
+          "name": "Bacon",
+          "category": "Meats",
+          "id": 3
         },
         {
           "name": "Chicken",
           "category": "Meats",
+          "id": 4
+        },
+        {
+          "name": "Apple",
+          "category": "Fruits",
           "id": 5
+        },
+        {
+          "name": "Broccoli",
+          "category": "Vegetables",
+          "id": 6
         }
       ]
     }
