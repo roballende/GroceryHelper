@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button, Icon, } from "semantic-ui-react";
+import { Form, Button, Icon } from "semantic-ui-react";
 
 const options = [
   { key: 'Fruits', text: 'Fruits', value: 'Fruits' },

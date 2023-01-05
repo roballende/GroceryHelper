@@ -1,0 +1,19 @@
+{
+    "groceries": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "category": "Fruits"
+        },
+        {
+            "id": 2,
+            "name": "Carrot",
+            "category": "Vegetables"
+        },
+        {
+            "id": 1,
+            "name": "Bacon",
+            "category": "Meats"
+        }
+    ]
+}

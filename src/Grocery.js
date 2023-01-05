@@ -7,19 +7,19 @@ function Grocery({groceryName, groceryCategory}) {
 <Container>
     <div className="contentcontainer padding">
       <div className="divcontainer">
-      <div className="fruits">
+      <div className="Fruits">
         <h2>Fruits</h2>
         <p>Apple</p>
         <p>Apple</p>
         <p>Apple</p>
       </div>
-      <div className="vegetables">
+      <div className="Vegetables">
         <h2>Vegetables</h2>
         <p>Carrot</p>
         <p>Carrot</p>
         <p>Carrot</p>
       </div>
-      <div className="meats">
+      <div className="Meats">
         <h2>Meats</h2>
         <p>Bacon</p>
         <p>Bacon</p>

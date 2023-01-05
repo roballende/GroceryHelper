@@ -1,6 +1,9 @@
 import NavBar from './NavBar';
 import Body from './Body';
 import React from 'react';
+import TemplateList from './TemplateList';
+import Grocery from './Grocery';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
  
@@ -9,7 +12,11 @@ function App() {
     <div className="App">
       <header className="App-header">
       <NavBar />
-      <Body />
+      <Routes>
+        <Route path="/" element={<Body/>} />
+        <Route path="/AllGroceries" element={<Grocery/>} />
+        <Route path="/AllGroceryLists" element={<TemplateList/>} />
+      </Routes>
       </header>
     </div>
   );
