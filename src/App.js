@@ -1,6 +1,6 @@
 import NavBar from './NavBar';
 import Body from './Body';
-import TemplateList from './TemplateList';
+import Template from './Template';
 import Grocery from './Grocery';
 import { Route, Routes } from "react-router-dom";
 import React, {useState, useEffect} from "react";
@@ -29,7 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Body/>} />
         <Route path="/Groceries" element={<Grocery groceryList={groceryList}/>} />
-        <Route path="/TemplateLists" element={<TemplateList templateList={templateList}/>} />
+        <Route path="/TemplateLists" element={<Template templateList={templateList}/>} />
       </Routes>
       </header>
     </div>
