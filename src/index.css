@@ -1,0 +1,43 @@
+.divcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 60px;
+}
+
+.new-grocery-form {
+    padding-top: 30px;
+}
+
+.Fruits {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.Vegetables {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.Meats {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.templatelist {
+    margin: auto;
+    padding: 10px;
+}
+
+.navbar {
+    text-align: center;
+    padding: 30px;
+}
+
+
+

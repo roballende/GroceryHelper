@@ -1,11 +1,15 @@
+import React from "react";
 
 
-function Template() {
+function Template ({templateList}) {
   return (
-    <div className="App">
-      <header className="App-header">
-  
-      </header>
+    <div className="templatelist">
+        <ul>
+        
+        {templateList.map((template) => (<li>{template.name}</li>))}
+          
+        </ul>
+       
     </div>
   );
 }

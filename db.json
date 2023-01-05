@@ -1,0 +1,93 @@
+{
+  "groceries": [
+    {
+      "name": "Banana",
+      "category": "Fruits",
+      "id": 1
+    },
+    {
+      "name": "Carrot",
+      "category": "Vegetables",
+      "id": 2
+    },
+    {
+      "name": "Bacon",
+      "category": "Meats",
+      "id": 3
+    },
+    {
+      "name": "Chicken",
+      "category": "Meats",
+      "id": 4
+    },
+    {
+      "name": "Apple",
+      "category": "Fruits",
+      "id": 5
+    },
+    {
+      "name": "Broccoli",
+      "category": "Vegetables",
+      "id": 6
+    }
+  ],
+  "templates": [
+    {
+      "id": "d22277df-aa85-45f5-a323-00fdcfc4bcd5",
+      "name": "Default",
+      "list": [
+        {
+          "name": "Banana",
+          "category": "Fruits",
+          "id": 1
+        },
+        {
+          "name": "Carrot",
+          "category": "Vegetables",
+          "id": 2
+        },
+        {
+          "name": "Bacon",
+          "category": "Meats",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": "e13de2d7-756c-4181-98fe-ca01bd925ae9",
+      "name": "Second Template",
+      "list": [
+        {
+          "name": "Banana",
+          "category": "Fruits",
+          "id": 1
+        },
+        {
+          "name": "Carrot",
+          "category": "Vegetables",
+          "id": 2
+        },
+        {
+          "name": "Bacon",
+          "category": "Meats",
+          "id": 3
+        },
+        {
+          "name": "Chicken",
+          "category": "Meats",
+          "id": 4
+        },
+        {
+          "name": "Apple",
+          "category": "Fruits",
+          "id": 5
+        },
+        {
+          "name": "Broccoli",
+          "category": "Vegetables",
+          "id": 6
+        }
+      ]
+    }
+  ]
+}
