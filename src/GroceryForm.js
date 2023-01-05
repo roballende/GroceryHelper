@@ -18,7 +18,17 @@ function GroceryForm({ addGrocery }) {
       name: newName,
       category: newCategory
     }
-    addGrocery(newGrocery)
+
+    fetch("http://localhost:3001/groceries", {
+      method: 'POST',
+      headers: {
+        "Content-Type": 'application/json',
+      },
+      body: JSON.stringify(newGrocery)
+    })
+      .then(resp => resp.json())
+      .then(newGrocery => addGrocery(newGrocery))
+
   }
 
   return (
