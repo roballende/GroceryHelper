@@ -30,7 +30,6 @@ return (
           onClick={(e) => handleClick(e.target)} >
             {fruit.name}
             </p>))}
-    
         
       </div>
       <div className="Vegetables">
@@ -47,7 +46,6 @@ return (
           onClick={(e) => handleClick(e.target)}>
           {meat.name}
           </p>))}
-       
         
       </div>
       </div>
