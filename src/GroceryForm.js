@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button, Icon } from "semantic-ui-react";
 
-const options = [
-  { key: 'Fruits', text: 'Fruits', value: 'Fruits' },
-  { key: 'Vegetables', text: 'Vegetables', value: 'Vegetables' },
-  { key: 'Meats', text: 'Meats', value: 'Meats' },
-]
-
-
-
 function GroceryForm({ addGrocery }) {
   const [newName, setNewName] = useState("")
   const [newCategory, setNewCategory] = useState("Fruits")

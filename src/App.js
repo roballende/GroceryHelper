@@ -11,7 +11,7 @@ function App() {
   const [groceryList, setGroceryList] = useState([])
   const [templateList, setTemplateList] = useState([])
 
-  
+
   useEffect(() => {
     fetch("http://localhost:3001/groceries")
       .then(resp => resp.json())

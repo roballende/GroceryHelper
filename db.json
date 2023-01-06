@@ -29,6 +29,21 @@
       "name": "Broccoli",
       "category": "Vegetables",
       "id": 6
+    },
+    {
+      "name": "Kiwi",
+      "category": "Fruits",
+      "id": 7
+    },
+    {
+      "name": "Spinach",
+      "category": "Vegetables",
+      "id": 8
+    },
+    {
+      "name": "Turkey",
+      "category": "Meats",
+      "id": 9
     }
   ],
   "templates": [
@@ -86,6 +101,42 @@
           "name": "Broccoli",
           "category": "Vegetables",
           "id": 6
+        }
+      ]
+    },
+    {
+      "id": "a9f6e168-a12f-44fe-894d-311b7254375c",
+      "name": "For Christmas",
+      "list": [
+        {
+          "name": "Banana",
+          "category": "Fruits",
+          "id": 1
+        },
+        {
+          "name": "Carrot",
+          "category": "Vegetables",
+          "id": 2
+        },
+        {
+          "name": "Bacon",
+          "category": "Meats",
+          "id": 3
+        },
+        {
+          "name": "Kiwi",
+          "category": "Fruits",
+          "id": 7
+        },
+        {
+          "name": "Spinach",
+          "category": "Vegetables",
+          "id": 8
+        },
+        {
+          "name": "Turkey",
+          "category": "Meats",
+          "id": 9
         }
       ]
     }
